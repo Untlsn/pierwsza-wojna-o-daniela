@@ -1,0 +1,64 @@
+@import url(../css/main.css);
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.france::before{
+    background-image: url(/assets/img/flags/france.png);
+}
+.uk::before{
+    background-image: url(/assets/img/flags/uk.png);
+}
+
+.rusia::before{
+    background-image: url(/assets/img/flags/russia.png);
+}
+
+.italia::before{
+    background-image: url(/assets/img/flags/italia.png);
+}
+
+.us::before{
+    background-image: url(/assets/img/flags/us.png);
+}
+
+.germany::before{
+    background-image: url(/assets/img/flags/germany.png);
+}
+
+.austria::before{
+    background-image: url(/assets/img/flags/austria.png);
+}
+
+.turkey::before{
+    background-image: url(/assets/img/flags/turkey.png);
+}
+
+.bulgary::before{
+    background-image: url(/assets/img/flags/bulgary.png);
+}
+
+.flag{
+    margin: 10px;
+    position: relative;
+
+    &::before{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 25px;
+        left: -70px;
+
+        border: 1px lightgrey solid;
+    }
+}

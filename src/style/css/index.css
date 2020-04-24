@@ -1,0 +1,20 @@
+@import url(../css/main.css);
+.okopy { background-image: url(/assets/img/okopy.jpg); }
+
+.top-img { position: relative; top: 0; width: 100vw; height: 100vh; background-size: initial; }
+
+.top-img h1 { position: absolute; top: 30vh; left: 10vw; color: white; text-shadow: 2px 2px rgba(0, 0, 0, 0.7); }
+
+.text-to-show { display: none; text-decoration: underline; color: darkgrey; }
+
+.clicker { text-decoration: underline; }
+
+.show-text:hover { cursor: pointer; }
+
+.show-text:focus .text-to-show { display: inline; }
+
+article { text-align: center; font-size: 25px; }
+
+@media (orientation: portrait) { article { font-size: 15px; } }
+
+.article-name { margin-bottom: 10px; }

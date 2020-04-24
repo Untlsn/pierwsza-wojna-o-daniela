@@ -1,0 +1,18 @@
+@import url(/src/style/css/main.css);
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.map{
+    height: 40vw;
+    width: 80vw;
+    background-image: url(/assets/img/map.png);
+    margin: auto;
+    margin-bottom: 20px;
+}
